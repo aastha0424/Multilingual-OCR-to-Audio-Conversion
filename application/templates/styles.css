@@ -1,0 +1,37 @@
+/* Your custom styles in styles.css */
+
+/* Override Bootstrap Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Your custom background color */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* Your custom text color */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #17a2b8 !important; /* Your custom text color on hover */
+}
+
+/* Override Bootstrap Container Styles */
+.container {
+    margin-top: 20px; /* Your custom margin-top */
+}
+
+/* Override Bootstrap Card Styles (Example) */
+.card {
+    border: 2px solid #17a2b8; /* Your custom border color */
+    border-radius: 10px; /* Your custom border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Your custom box-shadow */
+}
+
+/* Override Bootstrap Button Styles (Example) */
+.btn-primary {
+    background-color: #17a2b8; /* Your custom button background color */
+    border-color: #17a2b8; /* Your custom button border color */
+}
+
+.btn-primary:hover {
+    background-color: #135c72; /* Your custom button background color on hover */
+    border-color: #135c72; /* Your custom button border color on hover */
+}
